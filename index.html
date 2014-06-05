@@ -11,17 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="fonts/20db_regular_macroman/stylesheet.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <!-- commented out rest - remove here to enablecss
-         <link rel="stylesheet" href="css/reset.css">
-         end comment -->
-         
-          <!-- additional type and form styling
-          <link rel="stylesheet" href="css/base.css">
-         -->
-           <link rel="stylesheet" href="css/skeleton.css">
-
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -30,43 +24,33 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-		<div id = "header">
-		<img src="images/" />
-		
-		<h1> Restaurant </h1>
-			<p> 
-			<li> <a href="" > hours </a></li>, <li> <a href="" > menu </a></li>,
-			<li> <a href="" > about </a></li> 
-			</p>
-		<h1> ButcherShop </h1>
-			<p> 
-			<li> <a href="" > hours </a></li>, <li> <a href="" > meats </a></li>,
-			<li> <a href="" > about </a></li>
-			</p>
-		</div> <!-- end header-->
-		
-		<div id="content">
-		
-		</div> <!--end content-->
-		<p>&copy; Parts & Labor </p>
+      <div class="container">
+      <header class="masthead" role="banner"> <!--role says this is the masthead for the whole site-->
+        	<h1 class="masthead-brand four columns alpha"><a href="http://partsandlaborbutchery.com">Parts and Labor</a></h1>
+			<nav class="masthead-nav eight columns" role="navigation"> <!--nav is just like div but it's more accesible-->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+				<ul class="nav">
+					<li><a href="#">hours</a></li>
+					<li><a href="#">menu</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">location</a></li>
+				
+				</ul>
+			</nav>
+
+			<nav class="masthead-social four columns omega">
+				<ul class="nav">
+					<li><a class="social-twitter ir" href="#">Social 1</a></li>
+					<li><a class="social-facebook ir" href="#">Social 2</a></li>
+					<li><a class="social-instagram ir" href="#">Social 3</a></li>
+				</ul>
+			</nav>
+        </header>
+</div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-       
-       <!-- Load Jquery Plugins here --> 
-       
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>

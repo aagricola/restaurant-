@@ -97,15 +97,79 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* nav object*/
 
+.nav{
+	list-style: none;
+}
 
+.nav,
+.nav > li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
 
+.nav a {
+	display: block;
+}
 
+.masthead-brand a {
+	display: block;
+	width: 400px;
+	height: 170px;
+	overflow: hidden;
+	background: url(../img/title.png)left top no-repeat;
+	background-size: cover;
+}
 
+.masthead-brand a:before{
+	content: ''; 
+	display: block;
+	width: 0;
+	height: 150%;
+}
 
+.masthead-nav,
+.masthead-social{
+	text-align: right;
+	padding-top: 5px;
+}
+.masthead .masthead-nav{
+	float: right;
+	padding-top: 36px; 
+	margin-right: 0;
+	font-family: '20_dbregular';
+	font-size: 24px;
+	
+}
 
+.masthead .masthead-social{
+	float: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
+.masthead-social a {
+	display:block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprites.png);
+	background-repeat: no-repeat;
+}
 
+.social-twitter {
+background-position: -96px 0;
+}
+
+.social-instagram {
+	background-position: -48px 0;
+}
+
+.social-facebook {
+
+}
 
 
 
