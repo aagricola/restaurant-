@@ -133,28 +133,27 @@ h6{
 	font-family: 'Lato', sans-serif;
 }
 .scroller{
-	background: red;
+	background-image: url("../img/old_butcher.png");
+	background-repeat: no-repeat;
 	}
 	
 .container .site-content{
-	background-color: rgba(215, 215, 215, .5);
+	background-color: rgba(215, 215, 215, .7);
 	float: none;
 	display: block;
 	margin: 0 auto;
 }
 
+.hours{
+letter-spacing: .2em;
+text-transform: uppercase;	
+}
 
-/*.menu-section{
-	background-color: #d7d7d7;
-	opacity: .7;
-}*/
 .hours-heading{
-	margin-left: 5px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 24px;
-	line-height: 29px;
-	letter-spacing: .1em;
+/*float: none;
+display: block;
+margin: 0, auto;*/
+text-transform: uppercase;
 }
 
 .menu-list{
