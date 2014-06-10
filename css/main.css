@@ -17,12 +17,6 @@ select,
 textarea {
     color: #222;
 }
-
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -97,6 +91,129 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+body{
+	background-image: url("../img/ricepaper3.png");
+	background-repeat: repeat;
+	background-position: center top;
+	/*background-image: url("../img/old_butcher.png");
+	background-repeat: no-repeat;
+	background-position: inherit;*/
+}
+
+
+/* menu lists*/
+html,
+body{
+	font-size: 16px;
+	line-height: 24px; /*1.33 would be a relative value*/
+}
+
+p,
+ul,
+ol,
+dl{
+	margin-bottom: 12px;
+	font-size: 16 px;
+	line-height: 24 px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-bottom: 12px;
+	font-family: 'Lato', sans-serif;
+}
+.scroller{
+	background: red;
+	}
+	
+.container .site-content{
+	background-color: rgba(215, 215, 215, .5);
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*.menu-section{
+	background-color: #d7d7d7;
+	opacity: .7;
+}*/
+.hours-heading{
+	margin-left: 5px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: .1em;
+}
+
+.menu-list{
+	padding: 13px;
+}
+
+.menu-item{
+	overflow: hidden;
+	position: relative;
+	border-top: 1px solid #000;
+	padding-top: 23px;
+	margin-top: 24px;
+}
+
+.menu-item:first-child{
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+.dish-heading{
+	width: 80% /*so the price never overwrites the heading*/
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 13.3px;
+	line-height: 18px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+.dish-desc {
+	width: 80% /*so the price never overwrites the desc.*/
+	margin-bottom: 0;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 13.3 px;
+	line-height: 18px;
+}
+.dish-price{
+	/*float: right;*/
+	position: absolute;
+	top: 23px; /*same as padding top for menu item*/
+	right: 0;
+	width: 10%;
+	text-align: right;
+}
+
+.menu-item:first-child .dish-price{
+	top: 0;
+}
+
+.about-desc{
+	padding-left: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: .1em;
+}
+
 /* nav object*/
 
 .nav{
@@ -119,8 +236,9 @@ textarea {
 	width: 400px;
 	height: 170px;
 	overflow: hidden;
-	background: url(../img/title.png)left top no-repeat;
+	background: url(../img/title.png) left top no-repeat;
 	background-size: cover;
+	opacity: .7;
 }
 
 .masthead-brand a:before{
@@ -131,7 +249,7 @@ textarea {
 }
 
 .masthead-nav{
-	text-align: left;
+	text-align: right;
 	padding-top: 5px;
 }
 .masthead-social{
@@ -143,20 +261,31 @@ textarea {
 	padding-top: 5px;
 }
 .masthead .masthead-nav{
-	float: left;
+	float: right;
 	padding-top: 60px; 
 	margin-right: 0;
-	margin-left: 160px;
+	margin-left: 0;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	
 }
+.masthead .contact-us{
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	
+}
+
+.contact-us strong {
+	font-weight: normal;
+}
+
 .masthead .contact{
 	float: right;
 	padding-top: 0px; 
 	margin-right: 0;
 	font-family: 'Lato', sans-serif;
-	font-size: 12px;
+	font-size: 18px;
 	
 }
 
@@ -173,6 +302,7 @@ textarea {
 	height: 32px;
 	background-image: url(../img/sprites.png);
 	background-repeat: no-repeat;
+	opacity: .7;
 }
 
 .social-twitter {
