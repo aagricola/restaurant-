@@ -156,6 +156,11 @@ margin: 0, auto;*/
 text-transform: uppercase;
 }
 
+/*.menu-nav .nav{
+	padding-top: 3.5px;
+	margin-top: none;
+	line-height: 3.5px;
+}*/
 .menu-list{
 	padding: 13px;
 }
@@ -164,8 +169,8 @@ text-transform: uppercase;
 	overflow: hidden;
 	position: relative;
 	border-top: 1px solid #000;
-	padding-top: 23px;
-	margin-top: 24px;
+	padding-top: 13px;
+	margin-top: 13px;
 }
 
 .menu-item:first-child{
@@ -195,7 +200,7 @@ text-transform: uppercase;
 	/*float: right;*/
 	position: absolute;
 	top: 23px; /*same as padding top for menu item*/
-	right: 0;
+	right: 2%;
 	width: 10%;
 	text-align: right;
 }
