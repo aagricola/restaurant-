@@ -17,9 +17,10 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flexslider.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,7 +31,8 @@
 				<nav class="masthead-nav nine columns" role="navigation"> <!--nav is just like div but it's more accesible-->
 					<ul class="nav">
 						<li><a href="#hours">hours</a></li>
-						<li><a href="#menu">menu</a></li>
+						<li><a href="#food">food</a></li>
+						<li><a href="#drinks">drinks</a></li>
 						<li><a href="#about">about</a></li>
 						<li><a href="#location">location</a></li>
 						
@@ -38,46 +40,6 @@
 					<h3 class="contact-us">
 						contact us <strong>443.873.8887</strong>
 					</h3>
-				</nav>
-				
-			
-				<nav class="masthead-menu sixteen columns" role="navigation"> 
-					<ul class="nav">
-						<h4 class="food">
-						food:
-						</h4>
-						<!-- <li><a href="#starters">starters</a></li>
-						<li><a href="#entrees">entrees</a></li>
-						<li><a href="#sides">sides</a></li>
-						<li><a href="#beverages">beverages</a></li> -->
-						<li><a href="#beersnacks">beer snacks</a></li>
-						<li><a href="#salthouse">salthouse</a></li>
-						<li><a href="#salads">salads</a></li>
-						<li><a href="#butcherscuts">butcher's cuts</a></li>
-						<li><a href="#varieties">varieties</a></li>
-						<li><a href="#sandwiches">sandwiches</a></li>
-						<li><a href="#sausages">sausages</a></li>
-						<li><a href="#vegetables">vegetables</a></li>
-					</ul>
-				</nav>
-				<nav class="masthead-menu sixteen columns" role="navigation"> 
-					<ul class="nav">
-						<!-- <li><a href="#starters">starters</a></li>
-						<li><a href="#entrees">entrees</a></li>
-						<li><a href="#sides">sides</a></li>
-						<li><a href="#beverages">beverages</a></li> -->
-						<h4 class="food">
-						drinks:
-						</h4>						
-						<li><a href="#beer">beer</a></li>
-						<li><a href="#farmbeer">farm beer</a></li>
-						<li><a href="#cider">cider</a></li>
-						<li><a href="#libations">libations</a></li>
-						<li><a href="#teetotalers">teetotalers</a></li>
-						<li><a href="#draughtwines">wines on draught</a></li>
-						<li><a href="#sausages">white bottles</a></li>
-						<li><a href="#vegetables">red bottles</a></li>
-					</ul>
 				</nav>
 	
 				<nav class="masthead-social four columns omega">
@@ -88,12 +50,23 @@
 					</ul>
 				</nav>
 	        </header>
+	        
+	        <div class="content">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="img/old_butcher2.png" alt=""></li>
+						<li><img src="img/parts_labor_inside.png" alt=""></li>
+						<li><img src="img/parts_labor_outside.jpg" alt=""></li>
+						<li><img src="img/parts.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
       
 	        <div class="scroller clearfix">
 			        <div class="site-content twelve columns">
 			        		 <!-- <div class="site-content clearfix"> -->
 							<div class="hours" id="hours">
-								<h2>Hours</h2>
+								<h2 class="section-heading">Hours</h2>
 								<div class="hours-list">
 								<div class="hours-section" id="restaurant-hours">
 									<h3 class="hours-heading">
@@ -124,8 +97,8 @@
 									
 								</div> <!-- /.hours -->
 							
-							<div class="menu" id="menu">
-								<h2>Menu</h2>
+							<div class="menu" id="food">
+								<h2 class="section-heading">Menu</h2>
 								
 								<!--<nav class="menu-nav">
 									<ul class="nav">
@@ -171,7 +144,20 @@
 									<ul class="nav">
 										<li><a href="#sides">On the Side</a></li>
 									</ul>
-								</nav>	-->																																							
+								</nav>	-->																													<nav class="masthead-menu twelve columns" role="navigation"> 
+					<ul class="nav">
+						<li><a href="#beersnacks">beer snacks</a></li>
+						<li><a href="#salthouse">salthouse</a></li>
+						<li><a href="#salads">salads</a></li>
+						<li><a href="#butcherscuts">butcher's cuts</a></li>
+						<li><a href="#varieties">varieties</a></li>
+						<li><a href="#sandwiches">sandwiches</a></li>
+						<li><a href="#sausages">sausages</a></li>
+						<li><a href="#vegetables">vegetables</a></li>
+					</ul>
+				</nav>				
+				
+						<br class="clear">
 								
 								<div class="menu-section" id="beersnacks">
 									<h3 class="menu-heading">
@@ -474,19 +460,36 @@
 										<p class= "dish-price"> $6 </p>
 									</li>
 									</ul>
-									</div>																														
+									</div>
+									
+							<br class="clear">
+									
+								<div class="menu-section" id="drinks">
+								<h2 class="section-heading">Drinks</h2>
+																																						<nav class="masthead-menu twelve columns" role="navigation"> 
+					<ul class="nav">					
+						<li><a href="#beer">beer</a></li>
+						<li><a href="#farmbeer">farm beer</a></li>
+						<li><a href="#cider">cider</a></li>
+						<li><a href="#libations">libations</a></li>
+						<li><a href="#teetotalers">teetotalers</a></li>
+						<li><a href="#draughtwines">wines on draught</a></li>
+						<li><a href="#sausages">white bottles</a></li>
+						<li><a href="#vegetables">red bottles</a></li>
+					</ul>
+				</nav>
 								
 							</div> <!-- /.menu -->
 							<br class="clear"> <!-- skeleton function that clears floats from above -->
 							
 							<div class="about" id="about">
-							<h2>About</h2>
+							<h2 class="section-heading">About</h2>
 							<h4 class="about-desc"> The bulk of our seating is un-reserved, so if you can't make a reservation, please just walk on in!
 			Parts & Labor, from the team behind Woodberry Kitchen, located in Remington in an old automotive garage, continues the relationship with Chesapeake Bay growers focusing on pastured meats cooked in an open hearth. We pour 24 beers on tap with a focus on supporting small farm breweries in Maryland. Along Howard Street in this space we have a full retail butcher shop selling fresh cuts, sausages, cured meats, and Woodberry Pantry preserves, and staffed with a full butcher team to help make selections</h4>
 							</div><!-- /.location -->
 							
 							<div class="location" id="location">
-							<h2>Location</h2>
+							<h2 class="section-heading">Location</h2>
 							<h4 class="address"> 2600 N Howard St, Baltimore, MD, US, 21218 </h4>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3086.629034914265!2d-76.6204355!3d39.3193316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c804dd2da7a93f%3A0x10b1ede278aa451a!2s2600+N+Howard+St!5e0!3m2!1sen!2sus!4v1402362878518" width="600" height="450" frameborder="0" style="border:0"></iframe>
 							</div> <!-- /.location -->
@@ -503,5 +506,59 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Load jQuery Plugins Here -->
+		<script src="js/vendor/jquery.scrollTo.min.js"></script>
+		<script src="js/vendor/jquery.localScroll.min.js"></script>
+		<script src="js/vendor/waypoints.min.js"></script>
+		<script src="js/vendor/waypoints-sticky.min.js"></script>
+		<script src="js/vendor/jquery.flexslider-min.js"></script>
+		<script> 
+		$(function () {
+			$('.masthead-nav').localScroll({
+				axis: 'y',
+				hash: true,
+				duration: 1000,
+				easing: 'swing',
+				offset: function (){
+					return{
+						top: $('.masthead').height()*-1,
+						left: 0,
+					}
+					}
+			});
+			
+			$('.masthead-menu').localScroll({
+				axis: 'y',
+				hash: true,
+				duration: 1000,
+				easing: 'swing',
+				offset: function (){
+					return{
+						top: $('.masthead').height()*-1,
+						left: 0,
+					}
+					}
+			});
+			
+			
+			$('.masthead').waypoint('sticky');
+			
+			$('#about').waypoint(function (direction){
+				$(this).toggleClass('turnGreen')
+			});
+			$('.flexslider').flexslider({
+				animation: 'fade',
+				slideshowSpeed: 2000,
+				animationSpeed: 500,
+				pauseOnHover: true,
+			});
+			
+		});
+		</script>
+        
     </body>
 </html>
