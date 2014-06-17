@@ -242,21 +242,15 @@ text-transform: uppercase;
 
 .masthead-brand a {
 	display: block;
-	width: 400px;
-	height: 170px;
+	width: 100%;
+	padding-top: 42.5%;
 	overflow: hidden;
 	background: url(../img/title.png) left top no-repeat;
 	background-size: cover;
 	opacity: .7;
+	font-size: .1px;
+	line-height: 1;
 }
-
-.masthead-brand a:before{
-	content: ''; 
-	display: block;
-	width: 0;
-	height: 150%;
-}
-
 .masthead-nav{
 	text-align: right;
 	padding-top: 5px;
@@ -316,6 +310,15 @@ text-transform: uppercase;
 	right: 0;
 }
 
+@media screen and (max-width: 767px) {
+	.masthead .masthead-social {
+	    /*display:none;*/
+		position: static;
+		float: left;
+		text-align: left;
+	}
+}
+
 .masthead-social a {
 	display:block;
 	width: 32px;
@@ -365,6 +368,13 @@ scroller
 	margin-left: auto;
 	margin-right: auto;
 }
+@media screen and (max-width: 767px) {
+	.masthead .masthead-stuck {
+	    display:none;
+	}
+}
+
+
 
 
 /* ==========================================================================
