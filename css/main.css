@@ -325,7 +325,7 @@ text-transform: uppercase;
 	height: 32px;
 	background-image: url(../img/sprites.png);
 	background-repeat: no-repeat;
-	opacity: .7;
+	opacity: .5;
 }
 
 .social-twitter {
@@ -352,7 +352,12 @@ background-position: -96px 0;
 	text-align: center;
 }
 
-
+/*===================================================
+cursor
+=====================================================*/
+.custom {
+   cursor: url(../images/sausagemini.png), auto;
+}
 
 /*========================================================================
 scroller
