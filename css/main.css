@@ -199,7 +199,8 @@ text-transform: uppercase;
 	font-style: italic;
 	font-weight: 300;
 	font-size: 13.3 px;
-	line-height: 18px;
+	line-height: 21px;
+	text-transform:lowercase;
 }
 .dish-price{
 	/*float: right;*/
@@ -350,6 +351,10 @@ background-position: -96px 0;
 
 .section-heading{
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	letter-spacing: .5em;
+	
 }
 
 /*===================================================
