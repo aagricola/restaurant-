@@ -360,8 +360,8 @@ background-position: -96px 0;
 /*===================================================
 cursor
 =====================================================*/
-.custom {
-   cursor: url(../images/sausagemini.png), auto;
+.custom-cursor {
+   cursor: url(../img/sausagemini.png), auto;
 }
 
 /*========================================================================
